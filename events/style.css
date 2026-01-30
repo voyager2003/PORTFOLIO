@@ -1,0 +1,41 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    height: 48px;
+    width:48px;
+    border: none;
+    border-radius: 50%;
+    background-color:rgb(52,52,214);
+    color: white;
+    font-size:24px;
+
+}
+p{
+    font-size:24px;
+}
+#btn{
+    display:flex;
+    gap: 12px;
+}
+.flex-container {        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.flex-item {
+  background-color: lightblue;
+  border: 1px solid lightgray;
+  padding: 30px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

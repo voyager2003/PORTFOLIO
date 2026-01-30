@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
     <header>
-        <h1>Saurabh Yadav</h1>
+        <h1 id="h1" class="card">Saurabh Yadav</h1>
         <nav>
-           <a href="#profile">Profile</a> |
-           |
-        </nav>
+           <a class="navAn" href="#about">About</a> |
+           |<a class="navAn" href="#skills">Skills</a> |
+           <a class="navAn" href="#education">Education</a>
+           <a class="navAn" href="#projects">Projects</a> |
+            </nav>
     </header>
     <main>  
-        <section>
-            <h2>About me</h2>
-            <img src="me.jpg" alt="image of virat kholi">
+        <section id="about">
+            <h2 class="title">About me</h2>
+            <img id="profileImg" src="me.jpg" alt="image of virat kholi">
             <p>Hi, I’m Saurabh Yadav<br> 👋
 A MERN Stack Developer passionate about building modern, responsive, and scalable web applications.<br>
 
@@ -26,7 +29,8 @@ I specialize in MongoDB, Express.js, React.js, and Node.js and love turning idea
 
             
         </section>
-        <h2>Skills</h2>
+    <section id="skills">
+        <h2 class="title">Skills</h2>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -34,8 +38,8 @@ I specialize in MongoDB, Express.js, React.js, and Node.js and love turning idea
             
         </ul>
     </section>
-    <section>
-        <h2>Education</h2>
+    <section id="education">
+        <h2 class="title">Education</h2>
         <table border = "1">
             <tr>
                 <th>Year</th>
@@ -51,18 +55,18 @@ I specialize in MongoDB, Express.js, React.js, and Node.js and love turning idea
             </tr>
         </table>
     </section>
-    <section>
-        <h2>Projects</h2>
+    <section    id="projects">
+        <h2 class="title">Projects</h2>
         <ol>
             <li>
         <article>
-            <h3>Portfolio</h3>
+            <h3 class="title">Portfolio</h3>
             <p>About your project</p>
-            <p>Tech</p>
+            <p>Tech - HTML</p>
         </article>
         </li>
         <li>
-            <article>
+            <article class="card">
                 <h3>Todo Apps</h3>
                 <p>Basic todo App</p>
                 <p>Tech - HTML,CSS,JavaScript</p>
@@ -72,17 +76,27 @@ I specialize in MongoDB, Express.js, React.js, and Node.js and love turning idea
     </section>
     
     <section>
-        <h2>Contact Me</h2>
+        <h2 class="title">Contact Me</h2>
         <form action=""#profile"" method="post">
             <label for="name">Name</label>
-            <input id="name" type="text" placeholder="Saurabh Yadav" />
+            <input name="name" id="name" type="text" placeholder="Saurabh Yadav" />
             <br>
             <label for="email">Email</label>
-            <input id="email" type="email" placeholder="ydvsaurabh2003@gmail.com" />
+            <input name="email" id="email" type="email" placeholder="ydvsaurabh2003@gmail.com" />
             <br>
             <label for="message">Message</label>
-            <textarea id="message" placeholder="Write your message here..."></textarea>
-            <p>Select Your gender</p>
+            <textarea name="message" id="message" rows="3"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+            </form> 
+            </section>
+            </main>
+            <footer>
+                <p>&copy;2026 Saurabh Yadav</p>
+            </footer>
+            </body>
+            </html> 
+            <!--<p>Select Your gender</p>
             Male<input name="gender" type="radio" >
             Female<input name="gender" type="radio" >
             <h2>Select your skills</h2>
@@ -96,4 +110,4 @@ I specialize in MongoDB, Express.js, React.js, and Node.js and love turning idea
     </section>
     </main>
 </body>
-</html>
+</html>-->
